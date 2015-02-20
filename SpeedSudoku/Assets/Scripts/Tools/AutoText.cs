@@ -1,15 +1,37 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
+using System.Collections.Generic;
 
-public class AutoText : MonoBehaviour {
+public class AutoText : MonoBehaviour
+{
+	[SerializeField]	Text textUI;
+	[SerializeField]	string text;
+	[SerializeField]	float tokenDelay;
+	[SerializeField]	bool debugStart;
 
-	// Use this for initialization
-	void Start () {
-	
+
+	string[] GetSplitsByWords(string Text)
+	{
+		return Text.Split(new char[] { ' ' }, System.StringSplitOptions.RemoveEmptyEntries);
 	}
-	
-	// Update is called once per frame
-	void Update () {
-	
+
+	void Update()
+	{
+		if (!debugStart)
+			return;
+
+		StartCoroutine(Split());
+		debugStart = false;
+	}
+
+	IEnumerator Split()
+	{
+		textUI.text = "";
+		foreach (var word in GetSplitsByWords(text))
+		{
+			textUI.text += word + " ";
+			yield return new WaitForSeconds(tokenDelay);
+		}
 	}
 }
