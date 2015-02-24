@@ -1,0 +1,11 @@
+F:\WORK\GIT hub\UnityS1\SpeedSudoku\Temp\UnityVS_bin\Debug\Assembly-CSharp.dll
+F:\WORK\GIT hub\UnityS1\SpeedSudoku\Temp\UnityVS_bin\Debug\Assembly-CSharp.pdb
+F:\WORK\GIT hub\UnityS1\SpeedSudoku\Temp\UnityVS_bin\Debug\UnityEditor.dll
+F:\WORK\GIT hub\UnityS1\SpeedSudoku\Temp\UnityVS_bin\Debug\UnityEngine.dll
+F:\WORK\GIT hub\UnityS1\SpeedSudoku\Temp\UnityVS_bin\Debug\UnityEngine.UI.dll
+F:\WORK\GIT hub\UnityS1\SpeedSudoku\Temp\UnityVS_bin\Debug\UnityEngine.xml
+F:\WORK\GIT hub\UnityS1\SpeedSudoku\Temp\UnityVS_bin\Debug\UnityEditor.xml
+F:\WORK\GIT hub\UnityS1\SpeedSudoku\Temp\UnityVS_bin\Debug\UnityEngine.UI.xml
+F:\WORK\GIT hub\UnityS1\SpeedSudoku\obj\Debug\UnityVS.SpeedSudoku.CSharp.csprojResolveAssemblyReference.cache
+F:\WORK\GIT hub\UnityS1\SpeedSudoku\obj\Debug\Assembly-CSharp.dll
+F:\WORK\GIT hub\UnityS1\SpeedSudoku\obj\Debug\Assembly-CSharp.pdb
