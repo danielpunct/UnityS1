@@ -8,7 +8,7 @@ namespace SpeedSudokuProject
 	public class MainView : View
 	{
 		[SerializeField]	Text titleText;
-		[SerializeField]	RectTransform boardRect;		
+		[SerializeField]	BoardLayoutManager board;		
 
 		public void Init()
 		{

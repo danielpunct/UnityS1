@@ -54,6 +54,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\BoardLayoutManager.cs" />
     <Compile Include="Assets\Scripts\Strange\SudokuGameRoot.cs" />
     <Compile Include="Assets\Scripts\Strange\SudokuRootContext.cs" />
     <Compile Include="Assets\Scripts\Strange\Views\MainView.cs" />
