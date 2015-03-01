@@ -14,7 +14,6 @@ public class AnimatedAutoText : MonoBehaviour
 
 	void Awake()
 	{
-		startX = transform.position;
 		accumulatedWidht = Vector3.zero;
 		instantiatedTexts = new List<Text>();
 	}
@@ -55,7 +54,6 @@ public class AnimatedAutoText : MonoBehaviour
 		return Text.Split(new char[] { ' ' }, System.StringSplitOptions.RemoveEmptyEntries);
 	}
 
-	Vector3 startX;
 	Vector3 accumulatedWidht;
 	List<Text> instantiatedTexts;
 }
